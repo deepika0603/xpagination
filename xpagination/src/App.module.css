@@ -1,0 +1,47 @@
+.heading {
+  text-align: center;
+}
+
+.table_wrapper {
+  padding: 0px 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-bottom: 3px solid #019879;
+}
+
+thead th {
+  background-color: #019879;
+  text-align: start;
+  color: white;
+}
+
+th, td {
+  padding: 15px;
+}
+
+tbody td {
+  border-bottom: 0.5px solid gray;
+}
+
+.button_wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button_wrapper * {
+  background-color: #019879;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
